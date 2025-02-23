@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "The AWS region to deploy resources"
-  default     = "ap-south-_region"
+  default     = "ap-south-1"
 }
 variable "ami" {
   description ="The AMI to use for the EC2 instance"
